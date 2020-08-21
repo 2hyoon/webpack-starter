@@ -1,0 +1,25 @@
+.btn {
+  background-color: #4e6b85;
+  border: 1px solid #4e6b85;
+  border-radius: 25px;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 15px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #fff;
+    color: #4e6b85;
+    text-decoration: none;
+  }
+}
+
+::placeholder {
+  color: #808080;
+}
+
+body {
+  background-color: #ffa500;
+}
