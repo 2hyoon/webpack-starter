@@ -109,5 +109,14 @@ module.exports = (env) => {
 				partials: [path.join(process.cwd(), 'src', 'html', 'hbs', '*.hbs')],
 			}),
 		],
+
+		/**
+		 * Dev Server
+		 */
+		devServer: {
+			contentBase: path.join(__dirname, 'dist'),
+			port: 9000,
+			watchContentBase: true,
+		},
 	};
 };
