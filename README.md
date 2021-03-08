@@ -1,6 +1,6 @@
 # Webpack Starter
 
-Webpack starter for the vanila JS
+Webpack starter for the Vanila JS
 
 ## Getting Started
 
@@ -22,19 +22,20 @@ $ npm install
 $ npm run start
 ```
 
-**Build development files.** This task will generate development files and emit them into **dist** folder.
+**Build development files.** This task will generate development files and emit them into the **dist** folder.
 
 ```bash
 $ npm run dev
 ```
 
-**Build production files.** This task will generate production files and emit them into **dist** folder.
+**Build production files.** This task will generate production files and emit them into the **dist** folder.
 
 ```bash
 $ npm run prod
 ```
 
 **Run Lint** You can run [ESLint](https://eslint.org/) in CLI.
+
 Run Javascript and Sass lint.
 ```bash
 $ npm run lint
